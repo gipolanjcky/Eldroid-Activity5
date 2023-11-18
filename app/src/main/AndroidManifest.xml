@@ -11,8 +11,8 @@
     <uses-permission
         android:name="android.permission.CAMERA" />
     <uses-permission
-        tools:ignore="CoarseFineLocation"
-        android:name="android.permission.ACCESS_COARSE_LOCATION" />
+        android:name="android.permission.ACCESS_COARSE_FINE_LOCATION" />
+
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="32" />

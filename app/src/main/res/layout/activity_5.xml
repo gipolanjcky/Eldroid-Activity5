@@ -6,11 +6,13 @@
     tools:context=".Activity5">
 
     <TextView
-        android:text="Activity 5: Permission Explorer"
+        android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:textSize="20sp"/>
+        android:text="Permission Explorer"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
     
     
     <Button
